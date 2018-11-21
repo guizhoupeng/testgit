@@ -36,3 +36,4 @@ Git is free software distributed under the GPL.
     推送本地仓库给github：
     git push -u origin master、
 
+从远程库克隆：
