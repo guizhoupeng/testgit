@@ -1,3 +1,5 @@
+Git的学习笔记
+
 Git is a version control system.
 Git is free software.
 Git is a distributed version control system.
@@ -16,4 +18,3 @@ Git is free software distributed under the GPL.
     git add *file:增加文件
     git commit -m "<message>":定义修改注释
 远程仓库：
-    
