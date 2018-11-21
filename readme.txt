@@ -1,4 +1,7 @@
 Git的学习笔记
+自报家门
+git config --global user.name "Dong Hang"
+git config --global user.email "D_henry@163.com"
 
 Git is a version control system.
 Git is free software.
