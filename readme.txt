@@ -19,9 +19,13 @@ Creating a new branch is quick and simple
     HEAD:指向的版本就是当前版本，上一个版本为HEAD^,上上个版本HEAD^^
     git reset --hard (HEAD*或者ID)  返回某个版本
     git Log： 查看提交历史，即显示ID以及提交的commit
+    git log --pretty=oneline:查看提交历史，即显示ID显示行
+    git log --graph:查看历史图
+    git log --graph --pretty=oneline --abbrev=commit:查看历史合并图，并显示为行，ID缩减显示
     git reflog：查看命令历史commit
     git add *file:增加文件
     git commit -m "<message>":定义修改注释
+
 远程仓库：
     关联github库(repository)：
     git remote add origin git@github.com:guizhoupeng/learning.git
@@ -54,3 +58,4 @@ Creating a new branch is quick and simple
 
 
 发你是伏笔不发吧以撒的呢
+分支dev
