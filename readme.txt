@@ -61,6 +61,17 @@ Creating a new branch is quick and simple
   恢复分支信息：git stash pop (恢复并删除储藏区信息)
             =git stash apply + git stash drop
 
+标签：(标签相当于版本库的诠释)
+  标签建立：
+    命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+    命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+    命令git tag可以查看所有标签
+  操作标签：
+    用git tag -d <tag> 删除标签
+    用git push origin --tags一次性推送全部未推送的本地标签
+    如果要删除已推送的标签，需要先删除本地该标签，然后在用
+    git push origin :refs/tags/<tag>
+
 
 发你是伏笔不发吧以撒的呢
 分支dev
