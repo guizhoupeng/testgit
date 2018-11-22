@@ -54,7 +54,12 @@ Creating a new branch is quick and simple
     创建+切换分支：git checkout -b <name>
     合并某分支到当前分支：git merge <name>
     删除分支：git branch -d <name>
+    合并某分支到当前分支并删除分支：git merge --no-ff -m "merge with no-ff" dev
   解决冲突：
+  分支储藏：git stash
+  查看分支信息列表：git stash list
+  恢复分支信息：git stash pop (恢复并删除储藏区信息)
+            =git stash apply + git stash drop
 
 
 发你是伏笔不发吧以撒的呢
